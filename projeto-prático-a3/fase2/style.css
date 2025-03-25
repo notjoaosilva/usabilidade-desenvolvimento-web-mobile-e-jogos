@@ -1,0 +1,41 @@
+@charset "UTF-8";
+*  {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EBF2FA;
+
+}
+
+#titulo {
+    text-align: center;
+    color: #05668D;
+}
+.caracteristicas {
+    font-size: 25px;
+    color:  #679436;
+}
+.conteudo-escrito {
+    color: #000000;
+    text-align: justify;
+}
+ul {
+    color:#000000 ;
+}
+
+#nome {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.perfil {
+    width: 150px;
+    height:150px;
+    border-radius: 50%; 
+}
