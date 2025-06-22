@@ -1,0 +1,128 @@
+@charset "UTF-8";
+*  {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #BAC2CF;
+
+}
+
+.botões {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-left: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s, color 0.2s;
+  vertical-align: middle;
+}
+
+.botões:hover {
+  background-color: #203250;
+  color: #ffffff;
+}
+
+
+#titulo {
+    text-align: center;
+    color: #0C1A33;
+}
+.caracteristicas {
+    background-color: #f0f0f0;
+    color:  #0C1A33;
+    text-align: center;
+    border: none;
+}
+.conteudo-escrito {
+    background-color: #f0f0f0;
+    color: #000000;
+    text-align: center;
+}
+ul, li {
+    background-color: #f0f0f0;
+    color:#000000 ;
+}
+
+h2{
+     background-color: #BAC2CF;
+}
+
+.perfil-container {
+    
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.perfil {
+    width: 150px;
+    height:150px;
+    border-radius: 50%; 
+    background-color: #f0f0f0;
+    align-items: auto;
+}
+
+table {
+    box-shadow: 1px 1px 7px 1px #203250;
+    width: 80%;
+    margin: 20px auto; 
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+}
+th{
+    background-color: #f0f0f0;
+}
+th, td {
+    background-color: #f0f0f0;
+    border: 1px solid #203250;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.campo-input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #203250;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.campo-input:focus {
+  border-color: #203250;
+  box-shadow: 0 0 5px #20325055;
+  outline: none;
+}
+
+
+.mensagem-erro {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+  display: inline-block;
+  background-color: #f0f0f0;
+}
+
+.campo-textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 80px;
+  padding: 8px;
+  font-size: 16px;
+  color: #203250;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.campo-textarea:focus {
+  border-color: #203250;
+  box-shadow: 0 0 5px #20325055;
+  outline: none;
+}
+
